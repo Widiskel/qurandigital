@@ -10,8 +10,8 @@ void main() async {
   await GetStorage.init();
   final box = GetStorage();
   runApp(GetMaterialApp(
-    theme: box.read("appDark") == null ? appLight : appDark,
-    // theme: appLight,
+    //theme: box.read("appDark") == null ? appLight : appDark,
+    theme: appLight,
     title: "Al-Quran Digital",
     initialRoute: Routes.LANDING_PAGE,
     getPages: AppPages.routes,
