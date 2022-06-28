@@ -12,7 +12,7 @@ void main() async {
   runApp(GetMaterialApp(
     //theme: box.read("appDark") == null ? appLight : appDark,
     theme: appLight,
-    title: "Al-Quran Digital",
+    title: "Al-Quran Digital Apps",
     initialRoute: Routes.LANDING_PAGE,
     getPages: AppPages.routes,
   ));
